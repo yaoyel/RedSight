@@ -1,0 +1,35 @@
+{
+    "azure": {
+        "storageConnectString": "DefaultEndpointsProtocol=https;AccountName=redsight;AccountKey=AXAd5pBtmvDy0v0CuC+WE1ANUTIda41vbh/BIMpNyH1eShSM+gUb3+CjOf1SCFj2Z2Gmw7DiIRTiM5KwuSUJdQ==;EndpointSuffix=core.chinacloudapi.cn",
+        "blobStorageContainerName": "redsight"
+    },
+    "jwt": {
+        "expiresIn": "1h"
+    },
+    "cors": {
+        "origin": "*",
+        "maxAge": 360000
+    },
+    "Logger": {
+        "level": "info"
+    },
+    "db": {
+        "type": "mysql",
+        "host": "192.168.1.200",
+        "port": 3306,
+        "database": "redsight",
+        "username": "developer",
+        "password": "chrdwvr450G",
+        "autoSchemaSync": false
+    },
+    "Lc": {
+        "appId": "qCBNqTYmdIfbknMXII4nBjkV-gzGzoHsz",
+        "appKey": "pqhVwiHukj7Xq1EX2KDodhBi",
+        "masterKey": "M8gWuJI1v7sgNlnFXY4lR8uW",
+        "urls": {
+            "base": "https://api.leancloud.cn/",
+            "requestSmsCode": "/1.1/requestSmsCode",
+            "veritySmsCode": "/1.1/verifySmsCode/%s?mobilePhoneNumber=%s"
+        }
+    }
+}
