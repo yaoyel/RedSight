@@ -16,7 +16,7 @@ tsconfig.json
 tslint.json
 gulpfile/js
 /tests
-
+/log
 # misc
 .DS_Store
 .env.local
