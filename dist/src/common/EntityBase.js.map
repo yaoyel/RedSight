@@ -1,0 +1,1 @@
+{"version":3,"file":"EntityBase.js","sourceRoot":"","sources":["../../../src/common/EntityBase.ts"],"names":[],"mappings":";;AACA;IACI,WAAW,CAAC,GAAQ;IACpB,CAAC;CACJ;AAHD,gCAGC","sourcesContent":["\nexport class EntityBase {\n    toViewModel(arg: any): any {\n    }\n}"]}

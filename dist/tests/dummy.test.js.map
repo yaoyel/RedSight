@@ -1,0 +1,1 @@
+{"version":3,"file":"dummy.test.js","sourceRoot":"","sources":["../../tests/dummy.test.ts"],"names":[],"mappings":"AAAA,IAAI,CAAC,YAAY,EAAE;IACf,OAAO,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC","sourcesContent":["test(\"Hello Jest\", () => {\n    console.log(\"Jest works.\");\n});"]}

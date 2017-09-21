@@ -10,7 +10,13 @@ yarn.lock
 
 # production
 /build   
-/dist
+/src
+index.ts
+tsconfig.json
+tslint.json
+gulpfile/js
+/tests
+
 # misc
 .DS_Store
 .env.local
